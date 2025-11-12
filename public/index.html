@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Melbourne Athletic Development | Voice Agent</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Melbourne Athletic Development</p>
+          <h1>Realtime Voice Agent</h1>
+          <p class="subhead">
+            Stream caller audio -> Deepgram STT -> Gemini multi-agent brain ->
+            Deepgram TTS response.
+          </p>
+        </div>
+        <div class="agent-pill">
+          <span id="activeAgent">Idle</span>
+          <small id="sessionId"></small>
+        </div>
+      </header>
+
+      <section class="controls">
+        <div class="button-group">
+          <button id="startBtn">Start Call</button>
+          <button id="stopBtn" disabled>End Call</button>
+        </div>
+        <p id="status">Status: Idle</p>
+      </section>
+
+      <section class="layout">
+        <section class="conversation">
+          <div class="section-header">
+            <h2>Live Call Feed</h2>
+            <span id="intentBadge" class="badge">-</span>
+          </div>
+          <ul id="conversation"></ul>
+        </section>
+
+        <aside class="lead-panel">
+          <h2>Lead Sheet</h2>
+          <dl>
+            <dt>Name</dt>
+            <dd id="leadName">-</dd>
+            <dt>Date of Birth</dt>
+            <dd id="leadDob">-</dd>
+            <dt>Email</dt>
+            <dd id="leadEmail">-</dd>
+            <dt>Phone</dt>
+            <dd id="leadPhone">-</dd>
+            <dt>Request</dt>
+            <dd id="leadRequest">-</dd>
+          </dl>
+        </aside>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

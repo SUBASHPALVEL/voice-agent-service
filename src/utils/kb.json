@@ -1,0 +1,59 @@
+{
+  "businessName": "Melbourne Athletic Development",
+  "tagline": "Performance and rehab coaching for Melbourne athletes.",
+  "address": "Level 2, 100 Collins St, Melbourne VIC 3000",
+  "hours": {
+    "weekdays": "Mon-Fri 6:30am-8:30pm",
+    "saturday": "Sat 7:30am-2pm",
+    "sunday": "Closed"
+  },
+  "contact": {
+    "phone": "+61 3 9000 1250",
+    "email": "team@melbourneathletic.dev"
+  },
+  "services": [
+    {
+      "name": "Performance Physiotherapy",
+      "duration": "60 min",
+      "price": 220,
+      "description": "Hands-on treatment blended with movement screens to get athletes back to sport faster.",
+      "keywords": ["physio", "injury", "rehab", "pain"]
+    },
+    {
+      "name": "Return to Play Coaching",
+      "duration": "75 min",
+      "price": 180,
+      "description": "Strength and conditioning block focused on safely increasing training load post-injury.",
+      "keywords": ["return to play", "coaching", "strength", "conditioning"]
+    },
+    {
+      "name": "High Performance Testing",
+      "duration": "90 min",
+      "price": 260,
+      "description": "Force plate, VO2, and speed profiling with an actionable performance roadmap.",
+      "keywords": ["testing", "assessment", "performance", "force plate"]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept private health extras?",
+      "answer": "Yes, all physiotherapy and coaching sessions are eligible for private health extras. We issue an invoice you can claim immediately.",
+      "tags": ["health", "insurance", "extras"]
+    },
+    {
+      "question": "What sports do you work with?",
+      "answer": "We support track and field, AFL, basketball, and endurance athletes, but tailor programs to any motivated mover.",
+      "tags": ["sports", "audience", "teams"]
+    },
+    {
+      "question": "Parking and transport",
+      "answer": "Secure bike storage is onsite, and Parliament Station is a 3 minute walk. Limited 1 hour street parking is available on Spring St.",
+      "tags": ["parking", "transport", "location"]
+    }
+  ],
+  "values": [
+    "Active rehab first",
+    "Objective testing before every major program change",
+    "Fast, empathetic communication"
+  ]
+}
