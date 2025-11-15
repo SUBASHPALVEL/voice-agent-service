@@ -27,7 +27,7 @@ function startCall() {
   if (ws && ws.readyState === WebSocket.OPEN) return;
 
   const protocol = location.protocol === "https:" ? "wss" : "ws";
-  const socket = new WebSocket(`ws://localhost:8080`);
+  ws = new WebSocket(`${protocol}://${location.hostname}:8080`);
   ws.binaryType = "arraybuffer";
 
   ws.onopen = () => {
